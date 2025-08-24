@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h2>Login Form</h2>
+<form>
+    <label> Username: <input type="text" name="username" placeholder="Enter username" required></label>
+    <label> Password: <input type="password" name="password" placeholder="Enter password" required></label>
+</form>
+
+<h2>User Survey Form</h2>
+<form>
+    <p>Which device do you use most to access to internet?</p>
+    <label><input type="radio" name="device" value="PC">PC</label>
+    <label><input type="radio" name="device" value="Phone">Phone</label>
+    <label><input type="radio" name="device" value="Tablet">Tablet</label>
+
+    <p>Which features do you prefer?</p>
+    <label><input type="checkbox" name="feature" value="ui">Beautiful User Interface</label>
+    <label><input type="checkbox" name="feature" value="speed">High speed</label>
+    <label><input type="checkbox" name="feature" value="support">Good Support</label>
+
+    <p>Your satisfaction level</p>
+    <select name="satisfaction">
+        <option value="very_satisfied">Very Satisfied</option>
+        <option value="satisfied">Satisfied</option>
+        <option value="neutral">Neutral</option>
+        <option value="unsatisfied"><U></U>nsatisfied</option>
+    </select> <br><br>
+
+    <label>Other Feedback <br>
+        <textarea name="feedback" rows="4" cols="40" placeholder="Write your opinion.."></textarea>
+    </label>
+    </form>
+
+    <h2>Restaurant Booking Form</h2>
+    <form>
+        <label>Full Name: <input type="text" name="name" placeholder="Enter your name" required></label><br><br>
+        <label>Number of People: <input type="number" name="people" min="1" max="20" required></label><br><br>
+        <label>Date & Time: <input type="datetime-local" name="datetime" required></label><br><br>
+        <label>Spectial Request
+            <textarea name="request" rows="3" placeholder="Enter special request...."></textarea>
+        </label><br><br>
+        <button type="submit">Book Table</button>
+    </form>
+
+    <h2>Customer Feedback Form</h2>
+    <form>
+        <p>Rating (1-5)</p>
+        <label><input type="radio" name="rating" value="1">1</label>
+        <label><input type="radio" name="rating" value="2">2</label>
+        <label><input type="radio" name="rating" value="3">3</label>
+        <label><input type="radio" name="rating" value="4">4</label>
+        <label><input type="radio" name="rating" value="5">5</label><br> <br>
+
+        <label>Your Comment
+            <textarea name="comment" rows="3" placeholder="Write your feedback...."></textarea>
+        </label><br> <br>
+
+        <label>Email: <input type="email" name="email" placeholder="Enter your email" required></label>
+
+        <button type="submit">Send Feedback</button>
+    </form>
+
+    <h2>Order Payment Form</h2>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label>Full Name: <input type="text" name="fullname" placeholder="Enter full name" required></label><br><br>
+            <label>Email: <input type="email" name="email" placeholder="Enter email" required></label><br><br>
+            <label>Phone: <input type="tel" name="phone" placeholder="Enter phone number"></label>
+        </fieldset><br>
+
+        <fieldset>
+            <legend>Shipping Address</legend>
+            <label>Address: <input type="text" name="address" placeholder="Street, house number..." required></label><br><br>
+            <label>City: <input type="text" name="city" placeholder="Enter city"></label><br><br>
+            <label>Zip Code: <input type="text" name="zipcode" placeholder="Enter zip code"></label>
+        </fieldset><br>
+
+        <fieldset>
+            <legend>Payment Method</legend>
+            <label><input type="radio" name="payment" value="cod" required> Cash on Delivery</label><br>
+            <label><input type="radio" name="payment" value="credit"> Credit Card</label><br>
+            <label><input type="radio" name="payment" value="paypal"> PayPal</label><br>
+        </fieldset><br>
+
+        <button type="submit">Pay Now</button>
+    </form>
+</body>
+</html>
