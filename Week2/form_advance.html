@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./form_advance.css">
+    <title>Form Advance</title>
+</head>
+<body>
+
+    <div class="body_div">
+        <div class="login-box">
+            <h2>Login</h2>
+            <form>
+                <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+        <div class="form_service">
+            <form id="form_service">
+                <h3>Do you satisfied with service ?</h3>
+                <label><input type="radio" name="rate">Very Satisfied</label>
+                <label><input type="radio" name="rate">Normal</label>
+                <label><input type="radio" name="rate">No Satisfied</label>
+
+                <h3>Which feature do you like?</h3>
+                <label><input type="checkbox">Speed</label>
+                <label><input type="checkbox">User Interface</label>
+                <label><input type="checkbox">Support</label>
+                <label>Other Ideas: </label>
+                <textarea></textarea>
+            </form>
+        </div>
+
+        <div>
+            <form id="form_food">
+                <h2>Book Table</h2>
+                <label>Date</label>
+                <input type="datetime-local">
+                <label>Number People</label>
+                <input type="number" min="1" max="20">
+                <label>Special Required</label>
+                <textarea></textarea>
+                <button type="submit">Book Table</button>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>

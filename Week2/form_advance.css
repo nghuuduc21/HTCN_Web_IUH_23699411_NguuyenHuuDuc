@@ -1,0 +1,80 @@
+body{
+    background: #f0f2f5;
+    font-family: Arial, sans-serif;
+    
+}
+
+.body_div > .login-box {
+    width: 400px;
+    margin: 50px auto;  
+}
+
+.login-box{
+    background-color: #fff ;
+    padding: 32px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px black;
+    width: 400px;
+}
+
+.login-box h2{
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.login-box input{
+    width: 90%;
+    padding: 12px;
+    margin: 8px ;
+    border: 1 solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px black;
+}
+
+.login-box button{
+    width: 60px;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+
+#form_service{
+    background-color: #fff ;
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px black;
+    width: 700px;
+    margin: 50px auto; 
+    font-size: 25px;
+}
+
+#form_service label{
+    display: block;
+    margin: 12px 0 6px;
+}
+
+#form_service textarea{
+    width: 100%;
+    height: 100px;
+    border-radius: 6px;
+
+}
+
+#form_food{
+    background-color: #fff ;
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px black;
+    width: 700px;
+    margin: 50px auto;
+    font-size: 25px;
+}
+
+#form_food label{
+    display: block;
+    margin: 12px 0 6px;
+}
+

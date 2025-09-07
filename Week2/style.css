@@ -1,0 +1,179 @@
+body{
+    background-color: rgb(181, 243, 243);
+}
+
+#pic1{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.subjects{
+    background-color: antiquewhite;
+    font-size: 21px;
+    margin-left: auto;
+}
+
+#sub_p{
+    color: rgb(122, 35, 120);
+}
+
+ul > li{
+    color: rgb(35, 132, 80);
+}
+
+.timetable,tr,th,td{
+    border: 1px solid black;
+}
+
+#time{
+    background-color: #FCF9B6;
+}
+
+#day{
+    background-color: #E7ECF0;
+    color: #1DA1F2 ;
+    padding: auto;
+}
+
+#practice{
+    background-color: #71CB35;
+}
+
+#theory{
+    background-color: #E7ECF0;
+}
+
+table{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.signin{
+    background-color: rgb(246, 255, 240);
+    margin-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 20px;
+}
+
+#name{
+    margin-top: 50px;
+}
+
+#link_page1{
+    display: block;
+    text-align: center;
+    color: rgb(76, 0, 255);
+    font-size: 20px;
+}
+
+#partner_img{
+    width: 1000px;
+    height: 300px;
+    border-radius: 100px;
+    box-shadow: 30px 5px 10px black;
+}
+
+#descirbe_img{
+    font-size: 40px;
+    color: #dd341d;
+}
+
+.libary_picture{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.libary_picture > div{
+  border: 1px solid black;
+  text-align: center;
+}
+
+#country{
+    width: 600px;
+    height: 400px;
+}
+
+.video_div{
+    text-align: center;
+}
+
+#video{
+    width: 1000px;
+    height: 500px;
+}
+
+#audio{
+    text-align: center;   
+}
+
+#audio > audio{
+    box-shadow: 30px 5px 10px black;
+}
+
+#audio > h2{
+    box-shadow: 30px 5px  rgb(52, 158, 10);
+} ;
+
+section{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header{
+    text-align: center;
+    padding: 2rem 1rem;
+    background: #bedfee;
+    box-shadow: 10px 5px 10px black ;
+}
+
+header h1{
+    font-size: 45px;
+}
+
+header p{
+    margin-top: 10px;
+    font-size: 30px;
+    color: #555;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.project{
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.project img{
+    width: 100%;
+    height: 200px;
+}
+
+.project-content{
+    padding: 20px;
+}
+ .project-content h3{
+    font-size: 30px;
+ }
+
+ .project-content p{
+    font-size: 20px;
+ }
+
