@@ -1,0 +1,143 @@
+.container {
+    display: grid;
+    grid-template-areas: "header header" "content content" "footer footer";
+}
+
+.header {
+    grid-area: header;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo h1 {
+    color: green;
+    text-shadow: 5px 5px 5px white;
+}
+
+.menu {
+    background-color: beige;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: start;
+    list-style: none;
+}
+
+li {
+    margin-right: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+}
+
+.content {
+    grid-area: content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#logo {
+    height: 200px;
+    width: 100%;
+}
+
+.content_top h3 {
+    color: brown;
+}
+
+.content_bottom {
+    display: flex;
+    margin-left: 35px;
+}
+
+.content_bottom p {
+    color: brown;
+}
+
+.bottom_left{
+    border: 1px solid black;
+}
+
+#info {
+    width: 70%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    font-size: 16px;
+    background-color: white;
+}
+
+#sign_up {
+    background-color: rgb(101, 163, 7);
+    color: white;
+    padding: 8px;
+}
+
+.bottom_right {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.left_describe{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.left_form{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.right_links {
+    color: brown;
+    background-color: rgb(230, 164, 83);
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.right_more_info{
+    background-color: aliceblue;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+#img_leaf_brown{
+    float: left;
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+}
+
+.footer {
+    grid-area: footer;
+
+    background-color: white;
+    position: relative;
+}
+
+#img_footer{
+    height: 100px;
+    width: 100%;
+}
+
+#p_footer{
+    position: absolute;
+    top: 10px;
+    bottom: 25px;     /* Cách mép dưới */
+    left: 200px;
+    font-size: 30px;
+}
